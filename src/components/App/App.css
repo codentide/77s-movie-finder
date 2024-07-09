@@ -1,0 +1,19 @@
+/* Movies Container */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 2rem 10%;
+
+  border-bottom: 1px solid var(--border);
+}
+
+.movie-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+
+  padding: 4rem 10%;
+}

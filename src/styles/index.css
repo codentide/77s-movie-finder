@@ -1,0 +1,6 @@
+@import url("./bolt.css");
+
+html * {
+  box-sizing: border-box;
+  margin: 0;
+}

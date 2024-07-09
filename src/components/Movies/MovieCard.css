@@ -1,0 +1,11 @@
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.movie-card__info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
